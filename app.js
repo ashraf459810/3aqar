@@ -1,4 +1,4 @@
-
+var app = require('express')(),
   server = require('http').createServer(app);
 
 server.listen(5000, () => {
